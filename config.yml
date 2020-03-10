@@ -1,8 +1,14 @@
 backend:
   name: github
   repo: belhassen07/blog
-media_folder: static/assets
-public_folder: /assets
+  commit_messages:
+    create: 'Create {{collection}} “{{slug}}”'
+    update: 'Update {{collection}} “{{slug}}”'
+    delete: 'Delete {{collection}} “{{slug}}”'
+    uploadMedia: '[skip ci] Upload “{{path}}”'
+    deleteMedia: '[skip ci] Delete “{{path}}”'
+media_folder: static/img
+public_folder: /img
 collections:
   - name: blog
     label: Blog
