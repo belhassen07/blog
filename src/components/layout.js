@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-
 import { rhythm, scale } from "../utils/typography"
 
 const Layout = ({ location, title, children }) => {
@@ -11,9 +10,10 @@ const Layout = ({ location, title, children }) => {
     header = (
       <h1
         style={{
-          ...scale(1.5),
+          ...scale(1.4),
           marginBottom: rhythm(1.5),
           marginTop: 0,
+          color: '#2f3542'
         }}
       >
         <Link
@@ -54,16 +54,18 @@ const Layout = ({ location, title, children }) => {
       style={{
         marginLeft: `auto`,
         marginRight: `auto`,
-        maxWidth: rhythm(24),
+        maxWidth: rhythm(26),
         padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+        fontFamily: "Montserrat",
+       
       }}
     >
       <header>{header}</header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
+        © {new Date().getFullYear()}, 
         {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <a href="https://www.belhassenchelbi.xyz">Belhassenchelbi.xyz</a>
       </footer>
     </div>
   )
