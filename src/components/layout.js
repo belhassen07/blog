@@ -13,7 +13,7 @@ const Layout = ({ location, title, children }) => {
           ...scale(1.4),
           marginBottom: rhythm(1.5),
           marginTop: 0,
-          color: '#2f3542'
+          color: "#2f3542",
         }}
       >
         <Link
@@ -30,23 +30,25 @@ const Layout = ({ location, title, children }) => {
     )
   } else {
     header = (
-      <h3
-        style={{
-          fontFamily: `Montserrat, sans-serif`,
-          marginTop: 0,
-        }}
-      >
-        <Link
+      <div>
+        <h3
           style={{
-            boxShadow: `none`,
-            textDecoration: `none`,
-            color: `inherit`,
+            fontFamily: `Montserrat, sans-serif`,
+            marginTop: 0,
           }}
-          to={`/`}
         >
-          {title}
-        </Link>
-      </h3>
+          <Link
+            style={{
+              boxShadow: `none`,
+              textDecoration: `none`,
+              color: `inherit`,
+            }}
+            to={`/`}
+          >
+            {title}
+          </Link>
+        </h3>
+      </div>
     )
   }
   return (
@@ -57,12 +59,10 @@ const Layout = ({ location, title, children }) => {
         maxWidth: rhythm(26),
         padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
         fontFamily: "Montserrat",
-       
       }}
     >
       <header>{header}</header>
       <main>{children}</main>
-   
     </div>
   )
 }
