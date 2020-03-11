@@ -16,7 +16,7 @@ It’s easy to fall in this hole of hell where you just make the design and thro
 
 You have to know if the developer:
 
-has the time to implement the features the way you present it (it can be much more complicated for the developer) has the right skills to implement them (Don’t just throw some complex SVG animations to a developer who knows little about SVG animations)
-And if it’s possible to make something that will satisfy the user needs, the business objectives and also that will make your developer less frustrated implementing your prototype. Why don’t we make their lives easier?
+* has the time to implement the features the way you present it (it can be much more complicated for the developer)
+* has the right skills to implement them (Don’t just throw some complex SVG animations to a developer who knows little about SVG animations) And if it’s possible to make something that will satisfy the user needs, the business objectives and also that will make your developer less frustrated implementing your prototype. Why don’t we make their lives easier?
 
 I know it’s a non idealistic way to work when adjusting yourself with the developer time and skills but it’s a more realistic one, where everyone can feel that they’ve been thought of and then everyone will do their best and surpass their limits.
