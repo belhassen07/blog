@@ -2,6 +2,7 @@
 path: empathy-with-developers
 date: 2020-03-11T13:34:18.163Z
 title: Empathizing with developers
+description: Understanding developers
 ---
 The best way that we can empathize with a developer for me was to make the developer work. Yes, I’ve been a developer for some times before I decided to specialize in User Experience Design and now for my end of studies project, I still have to develop a website (last one maybe?).
 
