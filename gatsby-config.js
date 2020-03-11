@@ -45,12 +45,7 @@ module.exports = {
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
-          {
-            resolve: `gatsby-plugin-netlify-cms`,
-            options: {
-              enableIdentityWidget: false,
-            }
-          }
+          `gatsby-plugin-netlify-cms`,
         ],
       },
     },
