@@ -62,11 +62,7 @@ const Layout = ({ location, title, children }) => {
     >
       <header>{header}</header>
       <main>{children}</main>
-      <footer>
-        © {new Date().getFullYear()}, 
-        {` `}
-        <a href="https://www.belhassenchelbi.xyz">Belhassenchelbi.xyz</a>
-      </footer>
+   
     </div>
   )
 }
